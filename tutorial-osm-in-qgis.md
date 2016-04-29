@@ -11,6 +11,9 @@ Open QGIS and load the osm.pbf file, you only need to load the points. Open the 
 Click the 'Select features using an expression button' and read the Select by Expression section of the 
 [Instructions](https://github.com/d3netxer/virtual-mapgive-course/blob/master/qgis-querying.md) to query only the hospitals in Cameroon. But this time use this query:
 
+```
+"other_tags" LIKE '%hospital%' OR "other_tags" LIKE '%clinic%' OR "other_tags" LIKE '%health%'
+```
 
 Do you know what this query is doing?
 
