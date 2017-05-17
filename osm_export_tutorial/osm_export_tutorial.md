@@ -98,6 +98,10 @@ Downloading the whole planet can be useful in certain use cases including resear
 
 QGIS, which is a free, open-source desktop GIS application. QGIS integrates OSM import as a core functionality. 
 
+## 7. [OSM Export Tool](http://export.hotosm.org/en/)
+
+Yet another way to extract data is via the HOT OSM Export Tool. This tool is recently being developed on, and HOT will release a new version. We will expand on our guidance once the new version is complete.
+
 ### Note: 
 Before bringing in any data, first add a basemap. Harvard has a good walkthrough on how to do this by adding the OpenLayers plugin. [Tutorial](http://maps.cga.harvard.edu/qgis/wkshop/basemap.php)
 
