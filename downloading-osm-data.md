@@ -3,7 +3,7 @@
 
 As a GIS professional, you may come accross having a need to utilize OSM data in a GIS software package. Today we will introduce some ways to do this using QGIS, one of the most popular free and open source GIS software packages! There are many qays to download OSM data, here are just a few:
 
-# #For Small areas
+## For Small areas
 
 ### QGIS 2: OpenStreetMap Vectors 
 (source: http://wiki.openstreetmap.org/wiki/QGIS#QGIS2_OpenStreetMap_Vectors)
