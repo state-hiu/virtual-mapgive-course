@@ -13,4 +13,4 @@ Congratulations and thank you for accepting a position with VSFS and U.S. Depar
 
 ## Assignment 
 
-Submit a written summary (min 250 words) on you utilize geospatial information information in your everyday life, and ideas on how better geospatial data and/or tools can improve your life or the life of others. 
+Submit a written summary (min 250 words) on how you utilize geospatial information information in your everyday life, and ideas on how better geospatial data and/or tools can improve your life or the life of others. 
