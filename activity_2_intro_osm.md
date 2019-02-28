@@ -1,4 +1,4 @@
-# Start Mapping your neighborhood
+# Introduction to OpenStreetMap
 
 The objective of this assignment is to get you mapping right away in OpenStreetMap (OSM). OSM is a collaborative project to create a free editable map of the world. Anyone can create an account and start contributing right away, and people do for all types of reasons. 
 
@@ -14,7 +14,7 @@ After you are zoomed in far enough to your location the 'Edit' (**add graphic) b
 
 Don't be intimitated, there is a great Walkthrough to help get you started. If the Walkthrough didn't pop-up automatically, navigate to the 'Help' button (**add graphic) on the right-hand navbar and click on the 'Start the Walkthrough' button (**add graphic). The Walkthrough will guide you along the basics including navigation and drawing map features.
 
-## Assignment
+## Assignment: Neighborhood Mapping
 
 Mapping: Remember features in OSM can be represented in one of three different ways. Some features can be represented by more than one type. For additional guidance on the different types of features that can be added, look at the OpenStreetMap Wiki: https://wiki.openstreetmap.org/wiki/Main_Page. For part of this assignment, you must map three of each type of feature (point, line, and area). When mapping you have the choice to either create a new feature or modify an existing feature by improving its geometry or attribution. Save your edits, and list the features you created and the osm ids. You can find this out easily by visiting your profile page, then clicking on 'My Edits'. 
 
