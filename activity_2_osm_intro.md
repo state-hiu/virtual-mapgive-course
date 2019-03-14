@@ -1,5 +1,7 @@
 # Introduction to OpenStreetMap
 
+I will make a temporary change.
+
 The objective of this assignment is to get you mapping right away in OpenStreetMap (OSM). OSM is a collaborative project to create a free editable map of the world. Anyone can create an account and start contributing right away, and people do for all types of reasons. 
 
 For this assignment you will create an account on OpenStreetMap.org if you don't already have one, complete the tutorial, and map some point of interests (POIs) in your neighborhood.
