@@ -16,7 +16,7 @@ OpenMapKit (OMK) is an extension of OpenDataKit allowing users to create profess
 {insert screenshot}
 Mapillary is an app compatible with both Android and iPhone where you can take ground-level geo-tagged photos. With Mapillary you can capture street photos when you walk, ride your bike or drive. Once you upload the photos to Mapillary they are available for map editing on OpenStreetMap. The photos are useful for capturing features you can’t see on satellite imagery like building information, road conditions, traffic signs etc. See the Mapillary Showcase (https://www.mapillary.com/showcase) to learn earn how cities, agencies, companies, and NGOs use Mapillary imagery and map data.
 
-## Assignment: Field mapping with Mapillary
+## Assignment: Field Mapping with Mapillary
 You will be mapping your local neighborhood with Mapillary. We will follow a simple process: 1) Capture photos 2) Upload photos 3) Explore places and 4) Edit in OpenStreetMap
 
 When field mapping, be sure to follow adequate safety precautions. Obey all traffic rules, be aware of your surroundings, and do not trespass on private property. Do you venture into unsafe areas, and being along a friend if you feel uncomfortable mapping alone. 
