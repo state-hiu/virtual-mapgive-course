@@ -27,7 +27,7 @@ When field mapping, be sure to follow adequate safety precautions. Obey all traf
 
 - Spend at a minimum 40 minutes in the field using Mapillary to capture ground photos and sequences. Then upload your photos to Mapillary. Look out for capturing interesting things you would like to see mapped, including buildings and signs.
 
- -Edit OpenStreetMap using the iD editor and turn on the Mapillary Photo Overlay. 
+- Edit OpenStreetMap using the iD editor and turn on the Mapillary Photo Overlay. 
 
 - Using the extra information create at least 5 new building or add attributes to existing buildings including a name and number of levels. If applicable, change the building type of a more specific one (e.g. commercial building, industrial, residential). Also if applicable add an amenity tag to better describe buildings (e.g. house of worship, school, restaurant). {add screenshot of side menu with relevant fields highlighted}
 
