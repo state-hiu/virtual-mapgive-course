@@ -4,7 +4,7 @@
 
 OpenStreetMap (OSM) is open and freely available data. All of data that you help create and upload into OSM, can be extracted back out. As you spend time working with Geographic Information Systems, you may want to utilize OSM data in a GIS software package. There are various different ways you are able to extract data from OpenStreetMap. This guide will compare and contrast different methods so you can choose the best way that fit your needs.
 
-## 1. The Simple Way: Downloading straight from OpenStreetMap.org
+## 1. The Simple Way: Downloading straight from [OpenStreetMap.org](https://openstreetmap.org)
 
 - difficulty: easy
 - scale: city-level
@@ -18,7 +18,7 @@ Note that it is possible to convert a .osm file to other popular geospatial form
 
 ![osm download](assets/osm_website_export_annotated.png)
 
-## 2. Another simple way: Protomaps Minutely Extracts - https://protomaps.com/extracts/
+## 2. Another simple way: [Protomaps Minutely Extracts](https://protomaps.com/extracts/)
 
 - difficulty: easy
 - scale: city-level
