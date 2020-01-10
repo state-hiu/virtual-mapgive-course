@@ -84,6 +84,10 @@ Downloading the whole planet can be useful in certain use cases including resear
 
 Often another need that arises is that once you download the whole planet file you want to keep it up-to-date. If you are interested in this, you may want to look at the [docker-osm](https://github.com/kartoza/docker-osm) project. 
 
+Also note that the technology behind Protomaps is [OSM Express (OSMX)](https://github.com/protomaps/OSMExpress). If you are interested in keeping a planet file up-to-date, or also quickly extracting a bounding box from a planet file, look into OSMX.
+
+Finally, OSMIUM (https://osmcode.org/osmium-tool/) is another great tool for working with OSM files, including extracting data based on attributes, bounding boxes, historical queries, and more.
+
 ## Other Tools
 
 ### OSM Extracts
