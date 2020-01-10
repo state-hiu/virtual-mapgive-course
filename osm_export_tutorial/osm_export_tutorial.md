@@ -56,7 +56,7 @@ You can open shapefiles automatically using QGIS or ArcGIS.
 - water
 - waterways
 
-## 4. [OSM Export Tool](https://export.hotosm.org/)
+## 4. [HOT OSM Export Tool](https://export.hotosm.org/)
 
 The Export Tool creates OpenStreetMap exports for GIS programs and mobile devices. It outputs files in various tabular formats based on an input area of interest polygon and a selection of OpenStreetMap tags. It is synchronized minutely with the main OSM database, so exports can be created to accompany real-time humanitarian mapping efforts.
 
