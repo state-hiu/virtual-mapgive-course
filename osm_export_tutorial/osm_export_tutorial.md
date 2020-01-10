@@ -18,7 +18,15 @@ Note that it is possible to convert a .osm file to other popular geospatial form
 
 ![osm download](assets/osm_website_export_annotated.png)
 
-## 2. Geofabrik [download](http://download.geofabrik.de/)
+## 2. Another simple way: Protomaps Minutely Extracts - https://protomaps.com/extracts/
+
+- difficulty: easy
+- scale: city-level
+- file-format: .osm.pbf
+
+Download free on-demand OpenStreetMap data for any selected region. Edits from openstreetmap.org appear almost immediately. You can download the data as an osm.pbf file.
+
+## 3. Geofabrik [download](http://download.geofabrik.de/)
 
 - difficulty: easy
 - scale: country-level
@@ -48,7 +56,7 @@ You can open shapefiles automatically using QGIS or ArcGIS.
 - water
 - waterways
 
-## 3. [OSM Export Tool](https://export.hotosm.org/)
+## 4. [OSM Export Tool](https://export.hotosm.org/)
 
 The Export Tool creates OpenStreetMap exports for GIS programs and mobile devices. It outputs files in various tabular formats based on an input area of interest polygon and a selection of OpenStreetMap tags. It is synchronized minutely with the main OSM database, so exports can be created to accompany real-time humanitarian mapping efforts.
 
@@ -58,21 +66,13 @@ The Export Tool creates OpenStreetMap exports for GIS programs and mobile device
 - You can choose what layers to download, and it displays the keys for each layer
 - You can save and share your export 
 
-## 4. Query to find the exact data you need: Overpass Turbo (https://overpass-turbo.eu/)
+## 5. Query to find the exact data you need: Overpass Turbo (https://overpass-turbo.eu/)
 
 - difficulty: medium to advanced
 - scale: city
 - file-format: various
 
 Overpass Turbo, is a web-based data filtering tool for OpenStreetMap. With Overpass Turbo you can run Overpass API queries and analyse the resulting OSM data interactively on a map. There is an integrated Wizard which makes creating queries super easy. There is a limit to how much you can download so you may need to limit your searches. There are also some nifty queries you can make such are compare differences over different time periods 
-
-## 5. Protomaps Minutely Extracts - https://protomaps.com/extracts/
-
-- difficulty: easy
-- scale: city
-- file-format: .osm.pbf
-
-Download free on-demand OpenStreetMap data for any selected region. Edits from openstreetmap.org appear almost immediately. You can download the data as an osm.pbf file.
 
 ## 6. Download the whole planet - Planet.osm.org
 
