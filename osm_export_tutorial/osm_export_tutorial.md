@@ -14,6 +14,8 @@ This is the easiest and most straightforward way to download OSM data. Go to Ope
 
 A .osm file is a type of XML file that contains OSM data. You can open a .osm file automatically using QGIS, but not ArcGIS.
 
+Note that it is possible to convert a .osm file to other popular geospatial formats, such as shapefiles or geojson. There are many tools to do this. One way to do this is using the [ogr2ogr](gdal.org/programs/ogr2ogr.html#ogr2ogr) command line tool, which is part of the GDAL translator library.
+
 ![osm download](assets/osm_website_export_annotated.png)
 
 ## 2. Geofabrik [download](http://download.geofabrik.de/)
@@ -31,39 +33,7 @@ In OSM there are no layers in the traditional GIS sense. There are different typ
 
 You can open shapefiles automatically using QGIS or ArcGIS.
 
-## 3. Metro Extracts
-
-- difficulty: easy
-- scale: city-level
-- file-format: various
-
-Metro Extracts are chunks of OpenStreetMap (OSM) data clipped to the rectangular region surrounding a particular city or region of interest. Data is available for locations around the world and is updated on a weekly basis. If you don't see an existing extract that covers the area you are interested in, you can create your own custom extract. You can download a file format according to how you would like your data organized.
-
-![file_format](assets/fileformat.png)
-
-To download the OSM data, go to the Metro Extracts download page at https://mapzen.com/data/metro-extracts/. Learn more about using Metro Extracts by following this [tutorial](https://mapzen.com/documentation/metro-extracts/tutorial/).
-
-The files organized by OpenStreetMap tags have differences compared to shapefiles from Geofabrik. Here is an example:
-
-#### Metro Extract organized by OSM tags
-- admin
-- aeroways
-- amenities
-- barrierpoints
-- barrierways
-- buildings
-- housenumbers
-- land usages
-- places
-- roads
-- roads generalized
-- transport areas
-- transport points
-- water areas
-- water areas generalized
-- waterways
-
-#### Geofabrik download organized by OSM tags
+#### How Geofabrik creates different shapefiles using OSM tags
 
 - buildings
 - landuse
@@ -78,6 +48,16 @@ The files organized by OpenStreetMap tags have differences compared to shapefile
 - water
 - waterways
 
+## 3. [OSM Export Tool](https://export.hotosm.org/)
+
+The Export Tool creates OpenStreetMap exports for GIS programs and mobile devices. It outputs files in various tabular formats based on an input area of interest polygon and a selection of OpenStreetMap tags. It is synchronized minutely with the main OSM database, so exports can be created to accompany real-time humanitarian mapping efforts.
+
+#### Features:
+- it is possible to create your own bounding box
+- There are many different formats to choose for download including GeoPackage, shapefile, and KML
+- You can choose what layers to download, and it displays the keys for each layer
+- You can save and share your export 
+
 ## 4. Query to find the exact data you need: Overpass Turbo (https://overpass-turbo.eu/)
 
 - difficulty: medium to advanced
@@ -86,15 +66,34 @@ The files organized by OpenStreetMap tags have differences compared to shapefile
 
 Overpass Turbo, is a web-based data filtering tool for OpenStreetMap. With Overpass Turbo you can run Overpass API queries and analyse the resulting OSM data interactively on a map. There is an integrated Wizard which makes creating queries super easy. There is a limit to how much you can download so you may need to limit your searches. There are also some nifty queries you can make such are compare differences over different time periods 
 
-## 5. Download the whole planet - Planet.osm.org
+## 5. Protomaps Minutely Extracts - https://protomaps.com/extracts/
+
+- difficulty: easy
+- scale: city
+- file-format: .osm.pbf
+
+Download free on-demand OpenStreetMap data for any selected region. Edits from openstreetmap.org appear almost immediately. You can download the data as an osm.pbf file.
+
+## 6. Download the whole planet - Planet.osm.org
 
 - difficulty: medium
 - scale: world
 - file-format: .osm.pbf
 
-Downloading the whole planet can be useful in certain use cases including research, generating metrics, and looking at historical data. The downsize is that these files are very large. An uncompressed .osm that covers the whole planet is over 800GB. On this site you download compressed files that are smaller (over 35GB) but still large. You can also download history planet files that contain historical OSM information.
+Downloading the whole planet can be useful in certain use cases including research, generating metrics, and looking at historical data. The drawback is that the size of these files are very large. An uncompressed .osm that covers the whole planet is over 800GB. On this site you can download compressed files that are smaller (over 35GB) but still large. You can also download history planet files that contain historical OSM information.
 
-## 6. Download OSM straight from QGIS
+Often another need that arises is that once you download the whole planet file you want to keep it up-to-date. If you are interested in this, you may want to look at the [docker-osm](https://github.com/kartoza/docker-osm) project. 
+
+## Other Tools
+
+### OSM Extracts
+https://www.interline.io/osm/extracts/
+Each day, OSM Extracts by Interline mirrors the entire OpenStreetMap planet and creates city and region sized extracts. It is possible to use this tool with a developer preview.
+
+### Download OSM straight from QGIS 3
+QGIS 3 cannot download OSM data as a core functionality. Although, there is a plug-in called [QuickOSM](http://www.qgistutorials.com/it/docs/3/downloading_osm_data.html) that can do this.
+
+### Download OSM straight from QGIS 2
 
 - difficulty: medium
 - scale: city
@@ -102,7 +101,7 @@ Downloading the whole planet can be useful in certain use cases including resear
 
 QGIS, which is a free, open-source desktop GIS application. QGIS integrates OSM import as a core functionality. 
 
-### Note: 
+#### Note: 
 Before bringing in any data, first add a basemap. Harvard has a good walkthrough on how to do this by adding the OpenLayers plugin. [Tutorial](http://maps.cga.harvard.edu/qgis/wkshop/basemap.php)
 
 In QGIS, go to Menu "Vector -> OpenStreetMap -> Download data" which will connect to the OSM server and download data. You can select coordinates for the area you want. You can skip this step if you already have a .osm XML file. The server will not let you download too much data at one time, therefore you need to zoom into about the city level.
@@ -129,13 +128,3 @@ Finally select the type of data you want (points, lines, polygons) and choose ta
 ![types of data](assets/export_Osm_SpatialLite_Data_Type_Tags.PNG)
 
 Note that this process imports raw OSM GIS data, not any particular map style/symbology.
-
-## 7. [OSM Export Tool](http://export.hotosm.org/en/)
-
-Yet another way to extract data is via the HOT OSM Export Tool. This tool is recently being developed on, and HOT will release a new version. We will expand on our guidance once the new version is complete.
-
-## Other Tools
-
-### OSM Extracts
-https://www.interline.io/osm/extracts/
-Each day, OSM Extracts by Interline mirrors the entire OpenStreetMap planet and creates city and region sized extracts. It is possible to use this tool with a developer preview.
