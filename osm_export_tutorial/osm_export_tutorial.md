@@ -10,7 +10,9 @@ OpenStreetMap (OSM) is open and freely available data. All of data that you help
 - scale: city-level
 - file-format: .osm
 
-This is the easiest and most straightforward way to download OSM data. Go to OpenStreetMap.org and navigate to the area you want to download. The site will not let you download too much data at one time, therefore you need to zoom into about the city level. When you are ready to download the area that is displayed on your screen click on the Export button on the top menu. The left-hand export pane will display. Another option to select an area is by manually inputting the coordinates of the bounding box. Then click on the Export button on the left-hand pane to begin your download. You can open a .osm file automatically using QGIS, but not ArcGIS.
+This is the easiest and most straightforward way to download OSM data. Go to OpenStreetMap.org and navigate to the area you want to download. The site will not let you download too much data at one time, therefore you need to zoom into about the city level. When you are ready to download the area that is displayed on your screen click on the Export button on the top menu. The left-hand export pane will display. Another option to select an area is by manually inputting the coordinates of the bounding box. Then click on the Export button on the left-hand pane to begin your download. 
+
+A .osm file is a type of XML file that contains OSM data. You can open a .osm file automatically using QGIS, but not ArcGIS.
 
 ![osm download](assets/osm_website_export_annotated.png)
 
@@ -20,12 +22,14 @@ This is the easiest and most straightforward way to download OSM data. Go to Ope
 - scale: country-level
 - file-format: .osm.pdf, shapefile
 
-GeoFabrik has data extracts from OSM which are normally updated every day. The extracts typically cover whole countries and regions. Select your continent and then your country of interest. Options to download include .osm.pbf and shapefiles. 
+GeoFabrik has daily data extracts from OSM. These extracts typically cover whole countries and regions. Select your continent and then your country of interest. Options to download include .osm.pbf and shapefiles. 
 
-A .osm.pbf is a compressed .osm file. A .osm file is a type of XML file that contains OSM data.
+A .osm.pbf is a compressed .osm file.  You can open a .osm or .osm.pbf file automatically using QGIS, but not ArcGIS.
 
 ### shapefile format
-In OSM there are no layers in the traditional GIS sense. There are different types of features such as points (nodes), lines (ways), and polygons (closed ways). A feature is defined according to what it's tags are, and a tag can be anything. Geofabrik generates shapefiles grouping the most commonly found types of features in OSM into layers that are commonly used in GIS software. For example, one of the layers are roads, which contain the highways, tracks, and paths found in OSM.
+In OSM there are no layers in the traditional GIS sense. There are different types of features such as points (nodes), lines (ways), and polygons (closed ways). A feature is defined according to what its tags are, and a tag can be anything. Geofabrik generates shapefiles grouping the most commonly found types of features in OSM into layers that are commonly used in GIS software. For example, one of the layers are roads, which contain the highways, tracks, and paths found in OSM.
+
+You can open shapefiles automatically using QGIS or ArcGIS.
 
 ## 3. Metro Extracts
 
@@ -130,3 +134,8 @@ Note that this process imports raw OSM GIS data, not any particular map style/sy
 
 Yet another way to extract data is via the HOT OSM Export Tool. This tool is recently being developed on, and HOT will release a new version. We will expand on our guidance once the new version is complete.
 
+## Other Tools
+
+### OSM Extracts
+https://www.interline.io/osm/extracts/
+Each day, OSM Extracts by Interline mirrors the entire OpenStreetMap planet and creates city and region sized extracts. It is possible to use this tool with a developer preview.
