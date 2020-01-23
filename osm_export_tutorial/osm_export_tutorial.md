@@ -72,7 +72,47 @@ The Export Tool creates OpenStreetMap exports for GIS programs and mobile device
 - scale: city
 - file-format: various
 
-Overpass Turbo, is a web-based data filtering tool for OpenStreetMap. With Overpass Turbo you can run Overpass API queries and analyse the resulting OSM data interactively on a map. There is an integrated Wizard which makes creating queries super easy. There is a limit to how much you can download so you may need to limit your searches. There are also some nifty queries you can make that compare differences over different time periods.
+Overpass Turbo, is a web-based data filtering tool for OpenStreetMap. With Overpass Turbo you can run Overpass API queries and analyse the resulting OSM data interactively on a map. There is an integrated Wizard that can assist you in making queries. Two things to think about when creating your queries:
+
+1. Finding relevant tags: Features in OSM can be tagged in different ways. For example example if you are interested in finding schools then you may be interested in all of the following tags: 'school', 'university', 'kindergarten', and 'college'. Good resources for researching commonly used tags are the [OSM Wikipedia](https://wiki.openstreetmap.org/wiki/) and [TagInfo](https://taginfo.openstreetmap.org/).
+
+2. Features in OSM can often be represented as both points and polygons, and even relations! You may want to include all three feature types in your queries.
+
+There is a limit to how much you can download so you may need to limit your queries. There are also some nifty queries you can make that compare differences over different time periods.
+
+Example query to find health facilities in Overpass Turbo:
+```
+// query for ['clinic', 'pharmacy', 'hospital', 'doctors'] nodes, ways, and relations
+(
+
+  // query part for: “amenity=clinic
+  node["amenity"="clinic"]({{bbox}});
+  way["amenity"="clinic"]({{bbox}});
+  relation["amenity"="clinic"]({{bbox}});
+  
+  // query part for: “amenity=pharmacy
+  node["amenity"="pharmacy"]({{bbox}});
+  way["amenity"="pharmacy"]({{bbox}});
+  relation["amenity"="pharmacy"]({{bbox}});
+  
+  // query part for: “amenity=hospital
+  node["amenity"="hospital"]({{bbox}});
+  way["amenity"="hospital"]({{bbox}});
+  relation["amenity"="hospital"]({{bbox}});
+  
+  // query part for: “amenity=doctors
+  node["amenity"="doctors"]({{bbox}});
+  way["amenity"="doctors"]({{bbox}});
+  relation["amenity"="doctors"]({{bbox}});
+ 
+);
+// print results
+out body;
+>;
+out skel qt;
+```
+
+Overpass Turbo also allows you to save your results in various formats including GeoJSON. [GeoJSON.io](http://geojson.io/) is a good web application that makes it easy to visualize geojson, and you can save geojson in other formats such as a shapefile.
 
 ## 6. Download the whole planet - Planet.osm.org
 
