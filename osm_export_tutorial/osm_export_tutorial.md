@@ -114,6 +114,26 @@ out skel qt;
 
 Overpass Turbo also allows you to save your results in various formats including GeoJSON. [GeoJSON.io](http://geojson.io/) is a good web application that makes it easy to visualize geojson, and you can save geojson in other formats such as a shapefile.
 
+Advanced query finding features between two points in time:
+```
+[diff:"2016-02-01T15:00:00Z","2016-02-26T15:00:00Z"];
+(
+  // get all buildings
+  way[building]({{bbox}});
+  // get all roads
+  way[highway]({{bbox}});
+  // get important POIs
+  node[leisure]({{bbox}});
+  node[sport]({{bbox}});
+  node[man_made]({{bbox}});
+  node[historic]({{bbox}});
+  node[tunnel]({{bbox}});
+);
+out body;
+>;
+out skel qt;
+```
+
 ## 6. Download the whole planet - Planet.osm.org
 
 - difficulty: medium
