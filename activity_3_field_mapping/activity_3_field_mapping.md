@@ -10,6 +10,9 @@ Mapillary is an app compatible with both Android and iPhone where you can take g
 
 ### Field Papers (http://fieldpapers.org/)
 {insert screenshot}
+
+![sample img](/activity_3_field_mapping/images/sample_img_delete.jpg)
+
 Field Papers allow you to make your own printable atlas before you go out in the field. The atlas allows you to make notes and observations in the field. After Field mapping you can take a photograph of your atlas and overlay the atlas in the OpenStreetMap iD editor to complete your edits.
 
 ### OpenMapKit (http://openmapkit.org/) 
