@@ -6,16 +6,17 @@ Want to level up our mapping? Many advanced users use the [JOSM editor](https://
 
 If you need any help getting JOSM installed and launched. Visit the [Mapbox Getting Started Guide](https://labs.mapbox.com/mapping/getting-started/)
 
-
 ## Mapping with JSOM
 
 Learn the JOSM basics using the [Mapbox Mapping with JOSM Guide](https://labs.mapbox.com/mapping/mapping-with-josm/). In this guide you will learn how to download OSM data, use imagery, create data, modify data, tag features, and upload your changes to OSM.
-
 
 ## Buildings in JOSM Pro Mapping
 
 Learn how to map buildings really quickly and with less errors by watching MapGive's [Map Buildings using JOSM like a Pro video](https://www.youtube.com/watch?v=u6KsJOaA-iE&feature=youtu.be)
 
+## Roads in JOSM Pro Mapping
+
+Learn how to map roads really quickly and with less errors by watching MapGive's [Map Roads using JOSM like a Pro video](https://www.youtube.com/watch?v=TiuQbHCEHTA&feature=youtu.be)
 
 ## Additonal JOSM Training resources
 
