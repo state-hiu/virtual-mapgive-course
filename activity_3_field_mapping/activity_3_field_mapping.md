@@ -55,9 +55,15 @@ When field mapping, be sure to follow adequate safety precautions. Obey all traf
 
 - Edit OpenStreetMap using the iD editor and turn on the Mapillary Photo Overlay. 
 
-- Using the extra information create at least 5 new building or add attributes to existing buildings including a name and number of levels. If applicable, change the building type of a more specific one (e.g. commercial building, industrial, residential). Also if applicable add an amenity tag to better describe buildings (e.g. house of worship, school, restaurant). {add screenshot of side menu with relevant fields highlighted}
+![](/activity_3_field_mapping/images/mapillary.png)
 
-- Using the extra information create at least 5 new roads or add attributes to existing roads including a name and number of lanes. If applicable, add a road number, speed limit, and surface type. {add screenshot of side menu with relevant fields highlighted}
+- Using the extra information create at least 5 new building or add attributes to existing buildings including a name and number of levels. If applicable, change the building type of a more specific one (e.g. commercial building, industrial, residential). Also if applicable add an amenity tag to better describe buildings (e.g. house of worship, school, restaurant). 
+
+![](/activity_3_field_mapping/images/OSMbuilding.png)
+
+- Using the extra information create at least 5 new roads or add attributes to existing roads including a name and number of lanes. If applicable, add a road number, speed limit, and surface type. 
+
+![](/activity_3_field_mapping/images/OSMstreet.png)
 
 - Submit your Mapillary user name for the assignment and a written assignment (min 250 words) describing your experience. Here are some though-provoking questions to help you with your written assignment:
   - Is field mapping easy or hard? 
