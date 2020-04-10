@@ -24,11 +24,19 @@ When exploring the map, mapillary shows you both the imagery as well as the top-
 You can see when your images have been uploaded in your profile tab. This shows you what is being uploaded and when it is eventually published. This takes lots of battery and cellular data from your device. I heavily suggest you only upload while your phone is on Wifi and charging.
 
 ### Field Papers (http://fieldpapers.org/)
-{insert screenshot}
-
-![sample img](/activity_3_field_mapping/images/sample_img_delete.jpg)
-
 Field Papers allow you to make your own printable atlas before you go out in the field. The atlas allows you to make notes and observations in the field. After Field mapping you can take a photograph of your atlas and overlay the atlas in the OpenStreetMap iD editor to complete your edits.
+
+Select "make yourself an atlas" from the Field Papers homepage 
+
+![](/activity_3_field_mapping/images/Field%20papers/fieldpaperatlas.png)
+
+Here is the atlas creation page over my current location. Orient whichever square you wish to use to map over the central locsation you will be exploring. The other square can be used to take notes.
+
+![](/activity_3_field_mapping/images/Field%20papers/fieldpaperLA.png)
+
+Below is what my final atlas looked like for mapping south central Los Angeles.
+
+1[](/activity_3_field_mapping/images/Field%20papers/fieldpaperfinal.png)
 
 ### OpenMapKit (http://openmapkit.org/) 
 {insert screenshot}
