@@ -5,8 +5,9 @@ In the previous activity you gained experience mapping your neighborhood by remo
 When mapping is only done by mapping remotely, many details are often missed such as cultural features, businesses, road names, and more. Field mapping can be how you gain the local context for more detailed mapping. Some existing tools that assist with field mapping are Field Papers, OpenMapKit, and Mapillary.
 
 ### Mapillary (https://www.mapillary.com/)
-{insert screenshot}
 Mapillary is an app compatible with both Android and iPhone where you can take ground-level geo-tagged photos. With Mapillary you can capture street photos when you walk, ride your bike or drive. Once you upload the photos to Mapillary they are available for map editing on OpenStreetMap. The photos are useful for capturing features you can’t see on satellite imagery like building information, road conditions, traffic signs etc. See the Mapillary Showcase (https://www.mapillary.com/showcase) to learn earn how cities, agencies, companies, and NGOs use Mapillary imagery and map data.
+![](images/appoverview.PNG)
+Above is my location on the mapillary home screen, green indicated what has already been mapped by users
 
 ### Field Papers (http://fieldpapers.org/)
 {insert screenshot}
