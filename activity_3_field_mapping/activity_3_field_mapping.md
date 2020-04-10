@@ -36,7 +36,7 @@ Here is the atlas creation page over my current location. Orient whichever squar
 
 Below is what my final atlas looked like for mapping south central Los Angeles.
 
-1[](/activity_3_field_mapping/images/Field%20papers/fieldpaperfinal.png)
+![](/activity_3_field_mapping/images/Field%20papers/fieldpaperfinal.png)
 
 ### OpenMapKit (http://openmapkit.org/) 
 {insert screenshot}
