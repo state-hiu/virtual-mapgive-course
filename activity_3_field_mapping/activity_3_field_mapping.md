@@ -8,12 +8,19 @@ When mapping is only done by mapping remotely, many details are often missed suc
 Mapillary is an app compatible with both Android and iPhone where you can take ground-level geo-tagged photos. With Mapillary you can capture street photos when you walk, ride your bike or drive. Once you upload the photos to Mapillary they are available for map editing on OpenStreetMap. The photos are useful for capturing features you can’t see on satellite imagery like building information, road conditions, traffic signs etc. See the Mapillary Showcase (https://www.mapillary.com/showcase) to learn earn how cities, agencies, companies, and NGOs use Mapillary imagery and map data.
 
 ![](/activity_3_field_mapping/images/Mapillary/Overview.png)
+
 Above is my location on the mapillary home screen, green indicated what has already been mapped by users.
+
 ![](/activity_3_field_mapping/images/Mapillary/Camera_test.png)
+
 Here is what the camera view looks like while you are activly mapping. The UI will alert you to poor GPS signal and when your orientation is not level.
+
 ![](/activity_3_field_mapping/images/Mapillary/mappingexample.png)
+
 When exploring the map, mapillary shows you both the imagery as well as the top-down view of the map. You can also switch on the top-down map view as you activly intake images during your project.
+
 ![](/activity_3_field_mapping/images/Mapillary/uploadedimages.png)
+
 You can see when your images have been uploaded in your profile tab. This shows you what is being uploaded and when it is eventually published. This takes lots of battery and cellular data from your device. I heavily suggest you only upload while your phone is on Wifi and charging.
 
 ### Field Papers (http://fieldpapers.org/)
