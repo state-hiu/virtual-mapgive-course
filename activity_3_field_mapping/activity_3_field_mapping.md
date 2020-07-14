@@ -74,7 +74,7 @@ When field mapping, be sure to follow adequate safety precautions. Obey all traf
 ## Alternate Assignment
 In case there are circumstances that prevent you from mapping outside, just focus on editing in OpenStreetMap using the Mapillary layer. 
 
-- watch the Mapillary iD Editor video (https://www.youtube.com/watch?v=9v-gz-JHkbw) to learn how to edit in OpenStreetMap using Mapillary photos.
+- Watch the Mapillary iD Editor video (https://www.youtube.com/watch?v=9v-gz-JHkbw) to learn how to edit in OpenStreetMap using Mapillary photos.
 
 - Edit OpenStreetMap using the iD editor and turn on the Mapillary Photo Overlay. Use the [Mapillary map](https://www.mapillary.com/app/) to find areas in the world that have a good amount of Mapillary data and pick a place.
 
