@@ -71,7 +71,26 @@ When field mapping, be sure to follow adequate safety precautions. Obey all traf
   - Could you scale field mapping for a whole city with multiple people? 
   - How do you think Machine Learning or automation may make things easier to map?
 
+## Alternate Assignment
+In case there are circumstances that prevent you from mapping outside, just focus on editing in OpenStreetMap using the Mapillary layer. 
 
+- watch the Mapillary iD Editor video (https://www.youtube.com/watch?v=9v-gz-JHkbw) to learn how to edit in OpenStreetMap using Mapillary photos.
+
+- Edit OpenStreetMap using the iD editor and turn on the Mapillary Photo Overlay. Use the [Mapillary map](https://www.mapillary.com/app/) to find areas in the world that have a good amount of Mapillary data and pick a place.
+
+![](/activity_3_field_mapping/images/mapillary.png)
+
+- Using the extra information create at least 10 new building or add attributes to existing buildings including a name and number of levels. If applicable, change the building type of a more specific one (e.g. commercial building, industrial, residential). Also if applicable add an amenity tag to better describe buildings (e.g. house of worship, school, restaurant). 
+
+![](/activity_3_field_mapping/images/OSMbuilding.png)
+
+- Using the extra information create at least 10 new roads or add attributes to existing roads including a name and number of lanes. If applicable, add a road number, speed limit, and surface type. 
+
+- Submit your OpenStreetMap user name for the assignment, the location you mapped, and a written assignment (min 250 words) describing your experience. Here are some thought-provoking questions to help you with your written assignment:
+  - Did you run into any roadblocks or have any questions while editing? 
+  - Were there any issues with the photos (ex. data taken, text blurry, not useful angle, etc)? 
+  - Do you think ground photos are an advantage when mapping a city? 
+  - How do you think Machine Learning or automation may make things easier to map?
 
 
 
