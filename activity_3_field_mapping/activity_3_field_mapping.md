@@ -65,7 +65,7 @@ When field mapping, be sure to follow adequate safety precautions. Obey all traf
 
 ![](/activity_3_field_mapping/images/OSMstreet.png)
 
-- Submit your Mapillary user name for the assignment and a written assignment (min 250 words) describing your experience. Here are some though-provoking questions to help you with your written assignment:
+- Submit your Mapillary user name for the assignment and a written assignment (min 250 words) describing your experience. Here are some thought-provoking questions to help you with your written assignment:
   - Is field mapping easy or hard? 
   - Did you run into any roadblocks or have any questions while field mapping or editing? 
   - Could you scale field mapping for a whole city with multiple people? 
