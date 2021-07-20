@@ -10,7 +10,7 @@ For this assignment you will create an account on OpenStreetMap.org if you don't
 
 ![Pic2](/activity_2_osm_intro/images/Pic2.jpg)
 
-2. After you confirm your account visit https://www.openstreetmap.org again and Log-in. You will now navigate the map to view your own neighborhood. The map controls are similiar to other web maps you may have experienced before, with being able to pan by click and dragging your mouse, and there are controls on the right-hand side menu for zooming in and out. Try clicking on the 'Show My Location' button and see if it takes you automatically to your location on the map.
+2. After you confirm your account visit https://www.openstreetmap.org again and Log-in. You will now navigate the map to view your own neighborhood. The map controls are similar to other web maps you may have experienced before, with being able to pan by click and dragging your mouse, and there are controls on the right-hand side menu for zooming in and out. Try clicking on the 'Show My Location' button and see if it takes you automatically to your location on the map.
 
 ![Pic3](/activity_2_osm_intro/images/Pic3.jpg)
 
