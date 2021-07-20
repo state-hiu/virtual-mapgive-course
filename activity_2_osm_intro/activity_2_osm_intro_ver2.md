@@ -18,7 +18,7 @@ After you are zoomed in far enough to your location the 'Edit' button on the top
 
 
 
-Don't be intimitated, there is a great Walkthrough to help get you started. If the Walkthrough didn't pop-up automatically, navigate to the 'Help' button on the right-hand navbar and click on the 'Start the Walkthrough' button). The Walkthrough will guide you along the basics including navigation and drawing map features.
+Don't be intimidated, there is a great Walkthrough to help get you started. If the Walkthrough didn't pop-up automatically, navigate to the 'Help' button on the right-hand navbar and click on the 'Start the Walkthrough' button). The Walkthrough will guide you along the basics including navigation and drawing map features.
 
 ![Pic4](/activity_2_osm_intro/images/Pic4.jpg)
 
